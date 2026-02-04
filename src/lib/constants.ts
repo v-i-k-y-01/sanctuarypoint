@@ -1,5 +1,5 @@
-// HotDoc booking URL - Replace with your actual HotDoc practice URL
-export const HOTDOC_URL = "https://www.hotdoc.com.au";
+// HotDoc booking URL
+export const HOTDOC_URL = "https://www.hotdoc.com.au/medical-centres/sanctuary-point-NSW-2540/sanctuary-point-general-practice/doctors";
 
 // Practice contact information
 export const PRACTICE_INFO = {
