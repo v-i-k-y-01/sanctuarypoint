@@ -62,6 +62,12 @@ export default function Index() {
                   Book Appointment
                 </a>
               </Button>
+              <Button asChild variant="secondary" size="lg" className="text-base">
+                <a href={NEW_PATIENT_URL} target="_blank" rel="noopener noreferrer">
+                  <UserPlus className="mr-2 h-5 w-5" />
+                  New Patient? Register Here
+                </a>
+              </Button>
               <Button asChild variant="outline" size="lg" className="text-base bg-background/80 backdrop-blur">
                 <Link to="/services">
                   Our Services

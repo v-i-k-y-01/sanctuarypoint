@@ -18,8 +18,8 @@ export const PRACTICE_INFO = {
   phone: "02 4411 2024",
   email: "admin@sanctuarypointgp.com.au",
   hours: {
-    weekdays: "8:00 AM - 6:00 PM",
-    saturday: "9:00 AM - 1:00 PM",
+    weekdays: "9:00 AM - 5:00 PM",
+    saturday: "Closed",
     sunday: "Closed"
   },
   // Google Maps coordinates for 1/195 Kerry St, Sanctuary Point NSW 2540
