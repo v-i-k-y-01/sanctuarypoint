@@ -167,8 +167,9 @@ export default function Index() {
                       Book Online
                     </a>
                   </Button>
-                  <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+                  <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                     <a href={`tel:${PRACTICE_INFO.phone}`}>
+                      <Phone className="mr-2 h-5 w-5" />
                       Call {PRACTICE_INFO.phone}
                     </a>
                   </Button>
