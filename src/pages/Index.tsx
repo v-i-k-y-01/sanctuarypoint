@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { Calendar, Users, Heart, Shield, Stethoscope, ArrowRight, UserPlus } from "lucide-react";
+import { Calendar, Users, Heart, Shield, Stethoscope, ArrowRight, UserPlus, Phone, Radio } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
-import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO } from "@/lib/constants";
+import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
 
 const highlights = [
@@ -55,7 +55,7 @@ export default function Index() {
               Compassionate, quality healthcare for you and your family. 
               Where every patient is treated like family.
             </p>
-            <div className="flex flex-col justify-center gap-4 sm:flex-row">
+            <div className="flex flex-col justify-center gap-4 sm:flex-row flex-wrap">
               <Button asChild size="lg" className="text-base">
                 <a href={HOTDOC_URL} target="_blank" rel="noopener noreferrer">
                   <Calendar className="mr-2 h-5 w-5" />
@@ -73,6 +73,28 @@ export default function Index() {
                   Our Services
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="text-base bg-background/80 backdrop-blur">
+                <Link to="/team">
+                  <Users className="mr-2 h-5 w-5" />
+                  Our Team
+                </Link>
+              </Button>
+            </div>
+            
+            {/* 13 CURE Radio Doctor Notice */}
+            <div className="mt-8 inline-flex flex-col items-center rounded-lg border bg-background/90 px-6 py-4 backdrop-blur sm:flex-row sm:gap-4">
+              <div className="flex items-center gap-2 text-primary mb-2 sm:mb-0">
+                <Radio className="h-5 w-5" />
+                <span className="font-semibold">After Hours?</span>
+              </div>
+              <p className="text-sm text-muted-foreground text-center sm:text-left">
+                Call 13 CURE (13 28 73) for 24/7 doctor consultations via phone or video.
+              </p>
+              <Button asChild variant="link" size="sm" className="text-primary p-0 h-auto">
+                <a href={CURE_URL} target="_blank" rel="noopener noreferrer">
+                  Learn More <ArrowRight className="ml-1 h-4 w-4" />
+                </a>
               </Button>
             </div>
           </div>
@@ -145,8 +167,9 @@ export default function Index() {
                       Book Online
                     </a>
                   </Button>
-                  <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
+                  <Button asChild size="lg" variant="outline" className="border-primary-foreground/20 bg-primary-foreground text-primary hover:bg-primary-foreground/90">
                     <a href={`tel:${PRACTICE_INFO.phone}`}>
+                      <Phone className="mr-2 h-5 w-5" />
                       Call {PRACTICE_INFO.phone}
                     </a>
                   </Button>

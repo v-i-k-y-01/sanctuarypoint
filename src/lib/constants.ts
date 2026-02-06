@@ -4,6 +4,9 @@ export const HOTDOC_URL = "https://www.hotdoc.com.au/medical-centres/sanctuary-p
 // New Patient Registration URL
 export const NEW_PATIENT_URL = "https://www.hotdoc.com.au/forms/sanctuary-point-general-practice-new-patient-registration-form";
 
+// 13 CURE After Hours Service URL
+export const CURE_URL = "https://www.13cure.com.au/";
+
 // Practice contact information
 export const PRACTICE_INFO = {
   name: "Sanctuary Point General Practice",
