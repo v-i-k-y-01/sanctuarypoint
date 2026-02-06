@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
 import { HOTDOC_URL, PRACTICE_INFO } from "@/lib/constants";
+import heroImage from "@/assets/hero-clinic.jpg";
 
 const highlights = [
   {
