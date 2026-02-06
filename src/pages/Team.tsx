@@ -19,12 +19,12 @@ export default function Team() {
       {/* Team Grid */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+          <div className="mx-auto grid max-w-2xl gap-8 sm:grid-cols-2">
             {teamMembers.map((member, index) => (
               <div
                 key={member.id}
                 className="animate-fade-in"
-                style={{ animationDelay: `${index * 50}ms` }}
+                style={{ animationDelay: `${index * 100}ms` }}
               >
                 <TeamCard member={member} />
               </div>
