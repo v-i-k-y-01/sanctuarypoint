@@ -1,6 +1,9 @@
 // HotDoc booking URL
 export const HOTDOC_URL = "https://www.hotdoc.com.au/medical-centres/sanctuary-point-NSW-2540/sanctuary-point-general-practice/doctors";
 
+// New Patient Registration URL
+export const NEW_PATIENT_URL = "https://www.hotdoc.com.au/forms/sanctuary-point-general-practice-new-patient-registration-form";
+
 // Practice contact information
 export const PRACTICE_INFO = {
   name: "Sanctuary Point General Practice",
