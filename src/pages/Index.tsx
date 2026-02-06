@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { Calendar, Users, Heart, Shield, Stethoscope, ArrowRight } from "lucide-react";
+import { Calendar, Users, Heart, Shield, Stethoscope, ArrowRight, UserPlus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
-import { HOTDOC_URL, PRACTICE_INFO } from "@/lib/constants";
+import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
 
 const highlights = [
