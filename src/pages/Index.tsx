@@ -55,7 +55,7 @@ export default function Index() {
               Compassionate, quality healthcare for you and your family. 
               Where every patient is treated like family.
             </p>
-            <div className="flex flex-col justify-center gap-4 sm:flex-row flex-wrap">
+            <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <Button asChild size="lg" className="text-base">
                 <a href={HOTDOC_URL} target="_blank" rel="noopener noreferrer">
                   <Calendar className="mr-2 h-5 w-5" />
@@ -72,12 +72,6 @@ export default function Index() {
                 <Link to="/services">
                   Our Services
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="text-base bg-background/80 backdrop-blur">
-                <Link to="/team">
-                  <Users className="mr-2 h-5 w-5" />
-                  Our Team
                 </Link>
               </Button>
             </div>
