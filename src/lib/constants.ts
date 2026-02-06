@@ -1,6 +1,9 @@
 // HotDoc booking URL
 export const HOTDOC_URL = "https://www.hotdoc.com.au/medical-centres/sanctuary-point-NSW-2540/sanctuary-point-general-practice/doctors";
 
+// New Patient Registration URL
+export const NEW_PATIENT_URL = "https://www.hotdoc.com.au/forms/sanctuary-point-general-practice-new-patient-registration-form";
+
 // Practice contact information
 export const PRACTICE_INFO = {
   name: "Sanctuary Point General Practice",
@@ -15,8 +18,8 @@ export const PRACTICE_INFO = {
   phone: "02 4411 2024",
   email: "admin@sanctuarypointgp.com.au",
   hours: {
-    weekdays: "8:00 AM - 6:00 PM",
-    saturday: "9:00 AM - 1:00 PM",
+    weekdays: "9:00 AM - 5:00 PM",
+    saturday: "Closed",
     sunday: "Closed"
   },
   // Google Maps coordinates for 1/195 Kerry St, Sanctuary Point NSW 2540
