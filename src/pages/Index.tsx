@@ -6,7 +6,8 @@ import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
 import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
-
+import aboriginalFlag from "@/assets/aboriginal-flag.svg";
+import torresStraitFlag from "@/assets/torres-strait-islander-flag.svg";
 const highlights = [
   {
     icon: Stethoscope,
@@ -171,6 +172,30 @@ export default function Index() {
               </div>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Acknowledgement of Country Section */}
+      <section className="py-12 md:py-16 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="mb-6 text-2xl font-bold md:text-3xl">Acknowledgement of Country</h2>
+            <p className="mb-8 text-muted-foreground leading-relaxed">
+              We acknowledge the Traditional Custodians of the land on which we live and work and recognise their ongoing connection to land, waters and communities. We pay our respects to Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.
+            </p>
+            <div className="flex justify-center gap-6 md:gap-8">
+              <img 
+                src={aboriginalFlag} 
+                alt="Australian Aboriginal Flag" 
+                className="h-16 w-24 md:h-20 md:w-32 object-contain rounded shadow-sm"
+              />
+              <img 
+                src={torresStraitFlag} 
+                alt="Torres Strait Islander Flag" 
+                className="h-16 w-24 md:h-20 md:w-32 object-contain rounded shadow-sm"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </Layout>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Green top section -->
+  <rect width="600" height="133" fill="#009966"/>
+  <!-- Blue bottom section -->
+  <rect y="267" width="600" height="133" fill="#0066CC"/>
+  <!-- Black stripes -->
+  <rect y="133" width="600" height="20" fill="#000000"/>
+  <rect y="247" width="600" height="20" fill="#000000"/>
+  <!-- White center section -->
+  <rect y="153" width="600" height="94" fill="#FFFFFF"/>
+  <!-- White five-pointed star -->
+  <polygon fill="#FFFFFF" points="300,120 312,165 360,165 320,195 335,240 300,210 265,240 280,195 240,165 288,165"/>
+  <!-- Dhari (headdress) simplified -->
+  <path fill="#FFFFFF" d="M300,140 C340,100 380,110 400,90 C380,130 360,140 340,160 L300,180 L260,160 C240,140 220,130 200,90 C220,110 260,100 300,140 Z"/>
+</svg>
