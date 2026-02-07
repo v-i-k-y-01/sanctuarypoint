@@ -68,7 +68,7 @@ export default function Index() {
                   New Patient? Register Here
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="text-base bg-background/80 backdrop-blur">
+              <Button asChild size="lg" className="text-base">
                 <Link to="/services">
                   Our Services
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -104,7 +104,7 @@ export default function Index() {
               subtitle="At Sanctuary Point General Practice & Quality Care Hospital, we believe in treating the whole person, not just the symptoms. Our dedicated team provides comprehensive healthcare services in a warm, welcoming environment."
             />
             <div className="flex justify-center gap-4">
-              <Button asChild variant="outline">
+              <Button asChild>
                 <Link to="/team">
                   <Users className="mr-2 h-4 w-4" />
                   Meet Our Team
