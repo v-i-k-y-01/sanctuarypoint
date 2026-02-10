@@ -12,140 +12,140 @@
 
 @layer base {
   :root {
-    /* Warm, welcoming light theme */
-    --background: 0 0% 96%;
-    --foreground: 0 0% 9%;
+    /* Light theme inspired by SGP logo: navy-to-sky-blue gradient */
+    --background: 210 30% 97%;
+    --foreground: 220 40% 13%;
 
-    --card: 0 0% 98%;
-    --card-foreground: 0 0% 9%;
+    --card: 210 25% 99%;
+    --card-foreground: 220 40% 13%;
 
-    --popover: 0 0% 89%;
-    --popover-foreground: 0 0% 9%;
+    --popover: 210 20% 95%;
+    --popover-foreground: 220 40% 13%;
 
-    /* Primary: Calming teal */
-    --primary: 243 75% 58%;
-    --primary-foreground: 225 100% 96%;
+    /* Primary: Deep navy blue from logo */
+    --primary: 215 75% 42%;
+    --primary-foreground: 210 40% 98%;
 
-    /* Secondary: Soft blue-gray */
-    --secondary: 0 0% 32%;
-    --secondary-foreground: 0 0% 98%;
+    /* Secondary: Mid-blue from logo gradient */
+    --secondary: 200 55% 92%;
+    --secondary-foreground: 215 60% 30%;
 
-    --muted: 0 0% 63%;
-    --muted-foreground: 0 0% 9%;
+    --muted: 210 20% 92%;
+    --muted-foreground: 215 15% 40%;
 
-    /* Accent: Warm coral/peach */
-    --accent: 250 100% 97%;
-    --accent-foreground: 258 89% 66%;
+    /* Accent: Sky blue from logo */
+    --accent: 195 85% 93%;
+    --accent-foreground: 200 70% 38%;
 
     --destructive: 0 72% 50%;
     --destructive-foreground: 0 85% 97%;
 
-    --border: 0 0% 83%;
-    --input: 0 0% 83%;
-    --ring: 243 75% 58%;
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 215 75% 42%;
 
-    --radius: 1.25rem;
+    --radius: 0.75rem;
 
     /* Custom healthcare colors */
-    --healthcare-teal: 174 42% 40%;
-    --healthcare-teal-light: 174 35% 90%;
-    --healthcare-blue: 200 60% 50%;
-    --healthcare-blue-light: 200 50% 94%;
+    --healthcare-teal: 195 65% 42%;
+    --healthcare-teal-light: 195 45% 92%;
+    --healthcare-blue: 215 75% 42%;
+    --healthcare-blue-light: 215 50% 94%;
     --healthcare-warm: 35 80% 55%;
     --healthcare-warm-light: 35 70% 94%;
     --healthcare-green: 150 40% 45%;
     --healthcare-green-light: 150 35% 92%;
-    --chart-1: 234 89% 73%;
-    --chart-2: 255 91% 76%;
-    --chart-3: 270 95% 75%;
-    --chart-4: 238 83% 66%;
-    --chart-5: 0 0% 45%;
-    --sidebar: 0 0% 98%;
-    --sidebar-foreground: 0 0% 9%;
-    --sidebar-primary: 243 75% 58%;
-    --sidebar-primary-foreground: 225 100% 96%;
-    --sidebar-accent: 0 0% 32%;
-    --sidebar-accent-foreground: 0 0% 98%;
-    --sidebar-border: 0 0% 83%;
-    --sidebar-ring: 243 75% 58%;
+    --chart-1: 215 75% 42%;
+    --chart-2: 200 70% 50%;
+    --chart-3: 195 85% 50%;
+    --chart-4: 220 65% 55%;
+    --chart-5: 210 20% 55%;
+    --sidebar: 210 25% 98%;
+    --sidebar-foreground: 220 40% 13%;
+    --sidebar-primary: 215 75% 42%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 195 85% 93%;
+    --sidebar-accent-foreground: 200 70% 38%;
+    --sidebar-border: 210 20% 88%;
+    --sidebar-ring: 215 75% 42%;
     --font-sans: 'Lato', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
     --font-serif: 'EB Garamond', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
     --font-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
-    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
-    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --shadow-2xs: 0 1px 3px 0px hsl(215 30% 20% / 0.04);
+    --shadow-xs: 0 1px 3px 0px hsl(215 30% 20% / 0.05);
+    --shadow-sm: 0 1px 3px 0px hsl(215 30% 20% / 0.08), 0 1px 2px -1px hsl(215 30% 20% / 0.08);
+    --shadow: 0 1px 3px 0px hsl(215 30% 20% / 0.1), 0 1px 2px -1px hsl(215 30% 20% / 0.1);
+    --shadow-md: 0 4px 6px -1px hsl(215 30% 20% / 0.08), 0 2px 4px -2px hsl(215 30% 20% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(215 30% 20% / 0.08), 0 4px 6px -4px hsl(215 30% 20% / 0.06);
+    --shadow-xl: 0 20px 25px -5px hsl(215 30% 20% / 0.08), 0 8px 10px -6px hsl(215 30% 20% / 0.06);
+    --shadow-2xl: 0 25px 50px -12px hsl(215 30% 20% / 0.2);
     --tracking-normal: 0em;
     --spacing: 0.25rem;
   }
 
   .dark {
-    /* Comfortable dark theme */
-    --background: 0 0% 9%;
-    --foreground: 0 0% 98%;
+    /* Dark theme: navy-to-blue inspired by SGP logo */
+    --background: 220 30% 8%;
+    --foreground: 210 20% 95%;
 
-    --card: 0 0% 14%;
-    --card-foreground: 0 0% 98%;
+    --card: 220 25% 12%;
+    --card-foreground: 210 20% 95%;
 
-    --popover: 0 0% 25%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 220 25% 16%;
+    --popover-foreground: 210 20% 95%;
 
-    /* Primary: Brighter teal for dark mode */
-    --primary: 234 89% 73%;
-    --primary-foreground: 243 47% 20%;
+    /* Primary: Brighter blue for dark mode */
+    --primary: 210 80% 60%;
+    --primary-foreground: 220 40% 10%;
 
-    /* Secondary: Dark blue-gray */
-    --secondary: 0 0% 45%;
-    --secondary-foreground: 0 0% 98%;
+    /* Secondary */
+    --secondary: 215 30% 22%;
+    --secondary-foreground: 210 20% 90%;
 
-    --muted: 0 0% 45%;
-    --muted-foreground: 0 0% 98%;
+    --muted: 220 15% 22%;
+    --muted-foreground: 210 15% 65%;
 
-    /* Accent: Warmer for dark mode */
-    --accent: 261 72% 22%;
-    --accent-foreground: 255 91% 76%;
+    /* Accent: Sky blue for dark mode */
+    --accent: 200 50% 18%;
+    --accent-foreground: 195 80% 65%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 85% 97%;
 
-    --border: 0 0% 32%;
-    --input: 0 0% 32%;
-    --ring: 234 89% 73%;
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 210 80% 60%;
 
     /* Custom healthcare colors - dark mode */
-    --healthcare-teal: 174 50% 50%;
-    --healthcare-teal-light: 174 40% 20%;
-    --healthcare-blue: 200 60% 55%;
-    --healthcare-blue-light: 200 40% 20%;
+    --healthcare-teal: 195 60% 50%;
+    --healthcare-teal-light: 195 40% 18%;
+    --healthcare-blue: 215 70% 55%;
+    --healthcare-blue-light: 215 40% 18%;
     --healthcare-warm: 35 70% 50%;
-    --healthcare-warm-light: 35 50% 20%;
+    --healthcare-warm-light: 35 50% 18%;
     --healthcare-green: 150 45% 45%;
-    --healthcare-green-light: 150 35% 18%;
-    --chart-1: 229 93% 81%;
-    --chart-2: 252 94% 85%;
-    --chart-3: 269 97% 85%;
-    --chart-4: 234 89% 73%;
-    --chart-5: 0 0% 45%;
-    --sidebar: 0 0% 14%;
-    --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 234 89% 73%;
-    --sidebar-primary-foreground: 243 47% 20%;
-    --sidebar-accent: 255 91% 76%;
-    --sidebar-accent-foreground: 261 72% 22%;
-    --sidebar-border: 0 0% 32%;
-    --sidebar-ring: 234 89% 73%;
-    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.05);
-    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 1px 2px -1px hsl(0 0% 0% / 0.1);
-    --shadow-md: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.1);
-    --shadow-lg: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 4px 6px -1px hsl(0 0% 0% / 0.1);
-    --shadow-xl: 0 1px 3px 0px hsl(0 0% 0% / 0.1), 0 8px 10px -1px hsl(0 0% 0% / 0.1);
-    --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
+    --healthcare-green-light: 150 35% 16%;
+    --chart-1: 210 80% 60%;
+    --chart-2: 200 70% 55%;
+    --chart-3: 195 80% 55%;
+    --chart-4: 220 65% 60%;
+    --chart-5: 210 15% 50%;
+    --sidebar: 220 25% 10%;
+    --sidebar-foreground: 210 20% 95%;
+    --sidebar-primary: 210 80% 60%;
+    --sidebar-primary-foreground: 220 40% 10%;
+    --sidebar-accent: 200 50% 18%;
+    --sidebar-accent-foreground: 195 80% 65%;
+    --sidebar-border: 220 15% 22%;
+    --sidebar-ring: 210 80% 60%;
+    --shadow-2xs: 0 1px 3px 0px hsl(0 0% 0% / 0.1);
+    --shadow-xs: 0 1px 3px 0px hsl(0 0% 0% / 0.1);
+    --shadow-sm: 0 1px 3px 0px hsl(0 0% 0% / 0.15), 0 1px 2px -1px hsl(0 0% 0% / 0.15);
+    --shadow: 0 1px 3px 0px hsl(0 0% 0% / 0.2), 0 1px 2px -1px hsl(0 0% 0% / 0.15);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.15), 0 2px 4px -2px hsl(0 0% 0% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.15), 0 4px 6px -4px hsl(0 0% 0% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(0 0% 0% / 0.15), 0 8px 10px -6px hsl(0 0% 0% / 0.1);
+    --shadow-2xl: 0 25px 50px -12px hsl(0 0% 0% / 0.3);
   }
 }
 
