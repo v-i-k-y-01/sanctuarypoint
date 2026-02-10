@@ -22,16 +22,6 @@ export function ServiceCard({ service, showBookButton = true }: ServiceCardProps
       </CardHeader>
       <CardContent className="flex flex-1 flex-col">
         <p className="mb-4 flex-1 text-sm text-muted-foreground">{service.description}</p>
-        {service.features && (
-          <ul className="mb-4 space-y-1">
-            {service.features.map((feature, index) => (
-              <li key={index} className="flex items-center gap-2 text-xs text-muted-foreground">
-                <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                {feature}
-              </li>
-            ))}
-          </ul>
-        )}
         {showBookButton && (
           <Button asChild variant="outline" size="sm" className="mt-auto w-full">
             <a href={HOTDOC_URL} target="_blank" rel="noopener noreferrer">

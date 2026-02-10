@@ -26,7 +26,7 @@ export default function Services() {
                 className="animate-fade-in"
                 style={{ animationDelay: `${index * 50}ms` }}
               >
-                <ServiceCard service={service} />
+                <ServiceCard service={service} showBookButton={false} />
               </div>
             ))}
           </div>
