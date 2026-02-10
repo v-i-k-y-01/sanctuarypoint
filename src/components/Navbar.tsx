@@ -29,9 +29,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-              <span className="text-lg font-bold text-primary-foreground">SP</span>
-            </div>
+            <img src={logo} alt={PRACTICE_INFO.shortName} className="h-10 w-10 rounded-lg object-cover" />
             <span className="hidden font-semibold text-foreground sm:block">
               {PRACTICE_INFO.shortName}
             </span>
