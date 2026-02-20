@@ -44,9 +44,9 @@ export default function Index() {
         
         <div className="container relative z-10 mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-6 inline-flex items-center rounded-full border bg-background/80 px-4 py-2 text-sm backdrop-blur">
-              <span className="mr-2 h-2 w-2 rounded-full bg-primary animate-pulse" />
-              Welcoming new patients
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 border border-primary/30 px-5 py-2 text-sm font-semibold text-primary backdrop-blur">
+              <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
+              ✨ Now Welcoming New Patients
             </div>
             <h1 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
               Welcome to{" "}
@@ -63,7 +63,7 @@ export default function Index() {
                   Book Appointment
                 </a>
               </Button>
-              <Button asChild variant="secondary" size="lg" className="text-base">
+              <Button asChild size="lg" className="text-base">
                 <a href={NEW_PATIENT_URL} target="_blank" rel="noopener noreferrer">
                   <UserPlus className="mr-2 h-5 w-5" />
                   New Patient? Register Here
@@ -75,6 +75,12 @@ export default function Index() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
+            </div>
+
+            {/* Walk-in Banner */}
+            <div className="mt-6 inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3 text-primary-foreground shadow-lg animate-pulse">
+              <span className="h-2 w-2 rounded-full bg-primary-foreground" />
+              <span className="font-semibold text-base">🚶 Walk-in Patients Welcome — No Appointment Needed!</span>
             </div>
             
             {/* 13 CURE Radio Doctor Notice */}
