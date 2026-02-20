@@ -1,3 +1,6 @@
+import doctor1 from "@/assets/doctor1.jpg";
+import doctor2 from "@/assets/doctor2.jpg";
+
 export interface TeamMember {
   id: string;
   name: string;
@@ -18,7 +21,7 @@ export const teamMembers: TeamMember[] = [
     experience: "15+ years",
     education: "MBBS, University of Sydney; FRACGP",
     bio: "Dr. Mitchell is passionate about providing comprehensive family healthcare. With over 15 years of experience, she believes in building lasting relationships with her patients and their families. She has a special interest in preventive medicine and chronic disease management.",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face"
+    image: doctor1
   },
   {
     id: "dr-james-chen",
@@ -28,7 +31,7 @@ export const teamMembers: TeamMember[] = [
     experience: "12 years",
     education: "MBBS, University of Melbourne; FRACP",
     bio: "Dr. Chen brings a wealth of experience in internal medicine to our practice. He is dedicated to evidence-based medicine and takes a thorough approach to diagnosing and treating complex medical conditions. He speaks fluent Mandarin and English.",
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face"
+    image: doctor2
   }
 ];
 
