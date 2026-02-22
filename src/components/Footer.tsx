@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from "lucide-react";
 import { PRACTICE_INFO, SOCIAL_LINKS, HOTDOC_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.jpg";
+// @ts-ignore
+import medicareLogo from "@/assets/medicare.PNG";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,9 +16,7 @@ export function Footer() {
           {/* About Section */}
           <div>
             <div className="mb-4 flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <span className="text-lg font-bold text-primary-foreground">SP</span>
-              </div>
+              <img src={logo} alt={PRACTICE_INFO.shortName} className="h-10 w-10 rounded-lg object-cover" />
               <span className="font-semibold">{PRACTICE_INFO.shortName}</span>
             </div>
             <p className="mb-4 text-sm text-muted-foreground">
@@ -125,9 +126,13 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} {PRACTICE_INFO.name}. All rights reserved.</p>
+        {/* Medicare & Copyright */}
+        <div className="mt-8 border-t pt-8 flex flex-col items-center gap-4">
+          <div className="flex items-center gap-3">
+            <img src={medicareLogo} alt="Medicare Bulk Billing Available" className="h-12 object-contain" />
+            <span className="text-sm text-muted-foreground">Bulk Billing Available</span>
+          </div>
+          <p className="text-sm text-muted-foreground">© {currentYear} {PRACTICE_INFO.name}. All rights reserved.</p>
         </div>
       </div>
     </footer>
