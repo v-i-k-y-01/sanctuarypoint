@@ -84,7 +84,7 @@ export default function Index() {
             {/* Walk-in Banner */}
             <div className="mt-6 inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3 text-primary-foreground shadow-lg animate-pulse">
               <span className="h-2 w-2 rounded-full bg-primary-foreground" />
-              <span className="font-semibold text-base">🚶 Walk-in Patients Welcome — No Appointment Needed!</span>
+              <span className="text-sm font-semibold">🚶 Walk-in Patients Welcome </span>
             </div>
             
             {/* 13 CURE Radio Doctor Notice */}
@@ -212,3 +212,4 @@ export default function Index() {
     </Layout>
   );
 }
+

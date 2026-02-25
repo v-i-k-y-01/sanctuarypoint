@@ -15,7 +15,7 @@ export default function Resources() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background py-16 md:py-24">
+      <section className="bg-gradient-to-b from-primary/5 to-background py-10 md:py-14">
         <div className="container mx-auto px-4">
           <SectionHeader
             title="Health Resources"
@@ -25,7 +25,7 @@ export default function Resources() {
       </section>
 
       {/* Resources Tabs */}
-      <section className="py-12 md:py-16">
+      <section className="pt-2 pb-12 md:pt-4 md:pb-16">
         <div className="container mx-auto px-4">
           <Tabs defaultValue="tips" className="w-full">
             <div className="mb-8 flex justify-center">
@@ -78,3 +78,4 @@ export default function Resources() {
     </Layout>
   );
 }
+

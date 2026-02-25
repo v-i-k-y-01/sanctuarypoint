@@ -7,7 +7,7 @@ export default function Team() {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary/5 to-background py-16 md:py-24">
+      <section className="bg-gradient-to-b from-primary/5 to-background py-10 md:py-14">
         <div className="container mx-auto px-4">
           <SectionHeader
             title="Meet Our Team"
@@ -17,7 +17,7 @@ export default function Team() {
       </section>
 
       {/* Team Grid */}
-      <section className="py-12 md:py-16">
+      <section className="pt-2 pb-12 md:pt-4 md:pb-16">
         <div className="container mx-auto px-4">
           <div className="mx-auto grid max-w-2xl gap-8 sm:grid-cols-2">
             {teamMembers.map((member, index) => (
@@ -49,3 +49,4 @@ export default function Team() {
     </Layout>
   );
 }
+
