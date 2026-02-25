@@ -36,7 +36,7 @@ export default function TeamMember() {
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="aspect-square w-full object-cover"
+                  className="aspect-[3/4] w-full object-cover object-top"
                 />
               </Card>
             </div>
