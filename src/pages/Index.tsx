@@ -8,8 +8,7 @@ import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/cons
 import heroImage from "@/assets/hero-clinic.jpg";
 import aboriginalFlag from "@/assets/aboriginal-flag.svg";
 import torresStraitFlag from "@/assets/torres-strait-islander-flag.svg";
-// @ts-ignore
-import medicareLogo from "@/assets/medicare.PNG";
+import medicareLogo from "@/assets/medicare2.png";
 const highlights = [
   {
     icon: Stethoscope,
