@@ -8,6 +8,8 @@ import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/cons
 import heroImage from "@/assets/hero-clinic.jpg";
 import aboriginalFlag from "@/assets/aboriginal-flag.svg";
 import torresStraitFlag from "@/assets/torres-strait-islander-flag.svg";
+// @ts-ignore
+import medicareLogo from "@/assets/medicare.PNG";
 const highlights = [
   {
     icon: Stethoscope,
@@ -145,6 +147,19 @@ export default function Index() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Medicare Bulk Billing Section */}
+      <section className="py-12 md:py-16">
+        <div className="container mx-auto px-4">
+          <div className="mx-auto max-w-2xl text-center">
+            <div className="inline-flex flex-col items-center gap-3 rounded-2xl border bg-card p-6 shadow-lg">
+              <img src={medicareLogo} alt="Medicare Bulk Billing Available" className="h-16 object-contain" />
+              <h3 className="text-lg font-semibold">Bulk Billing Available</h3>
+              <p className="text-sm text-muted-foreground">We bulk bill for eligible patients as per Australian Government Medicare guidelines.</p>
+            </div>
           </div>
         </div>
       </section>
