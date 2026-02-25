@@ -45,8 +45,8 @@ export default function Index() {
         
         <div className="container relative z-10 mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-6 flex items-center justify-center gap-4">
-              <img src={medicareLogo} alt="Medicare Bulk Billing" className="h-14 object-contain" />
+            <div className="mb-4 flex items-center justify-start">
+              <img src={medicareLogo} alt="Medicare Bulk Billing" className="h-20 object-contain" />
             </div>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary/10 border border-primary/30 px-5 py-2 text-sm font-semibold text-primary backdrop-blur">
               <span className="h-2 w-2 rounded-full bg-primary animate-pulse" />
