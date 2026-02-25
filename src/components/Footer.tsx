@@ -3,8 +3,6 @@ import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from "lucid
 import { PRACTICE_INFO, SOCIAL_LINKS, HOTDOC_URL } from "@/lib/constants";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.jpg";
-// @ts-ignore
-import medicareLogo from "@/assets/medicare.PNG";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -126,12 +124,8 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Medicare & Copyright */}
-        <div className="mt-8 border-t pt-8 flex flex-col items-center gap-4">
-          <div className="flex items-center gap-3">
-            <img src={medicareLogo} alt="Medicare Bulk Billing Available" className="h-12 object-contain" />
-            <span className="text-sm text-muted-foreground">Bulk Billing Available</span>
-          </div>
+        {/* Copyright */}
+        <div className="mt-8 border-t pt-8 text-center">
           <p className="text-sm text-muted-foreground">© {currentYear} {PRACTICE_INFO.name}. All rights reserved.</p>
         </div>
       </div>
