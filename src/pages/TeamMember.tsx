@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from "react-router-dom";
-import { ArrowLeft, GraduationCap, Clock, Calendar } from "lucide-react";
+import { ArrowLeft, GraduationCap, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -54,18 +54,7 @@ export default function TeamMember() {
               </div>
 
               {/* Quick Info Cards */}
-              <div className="mb-8 grid gap-4 sm:grid-cols-2">
-                <Card>
-                  <CardContent className="flex items-center gap-4 p-4">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                      <Clock className="h-5 w-5" />
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Experience</p>
-                      <p className="font-semibold">{member.experience}</p>
-                    </div>
-                  </CardContent>
-                </Card>
+              <div className="mb-8">
                 <Card>
                   <CardContent className="flex items-center gap-4 p-4">
                     <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">

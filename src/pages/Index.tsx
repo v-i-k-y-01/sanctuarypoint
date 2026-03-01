@@ -6,8 +6,8 @@ import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
 import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
-import aboriginalFlag from "@/assets/aboriginal-flag.svg";
-import torresStraitFlag from "@/assets/torres-strait-islander-flag.svg";
+import lgbtqFlag from "@/assets/lbtqFlag.svg";
+import straitFlag from "@/assets/straitFlag.svg";
 import medicareLogo from "@/assets/medicare2.png";
 const highlights = [
   {
@@ -194,17 +194,21 @@ export default function Index() {
             <p className="mb-8 text-muted-foreground leading-relaxed">
               We acknowledge the Traditional Custodians of the land on which we live and work and recognise their ongoing connection to land, waters and communities. We pay our respects to Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.
             </p>
-            <div className="flex justify-center gap-6 md:gap-8">
-              <img 
-                src={aboriginalFlag} 
-                alt="Australian Aboriginal Flag" 
-                className="h-16 w-24 md:h-20 md:w-32 object-contain rounded shadow-sm"
-              />
-              <img 
-                src={torresStraitFlag} 
-                alt="Torres Strait Islander Flag" 
-                className="h-16 w-24 md:h-20 md:w-32 object-contain rounded shadow-sm"
-              />
+            <div className="flex items-center justify-center gap-6 md:gap-8">
+              <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
+                <img
+                  src={lgbtqFlag}
+                  alt="LGBTQ+ Pride Flag"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
+                <img
+                  src={straitFlag}
+                  alt="Strait Islander Flag"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

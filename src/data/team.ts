@@ -6,7 +6,6 @@ export interface TeamMember {
   name: string;
   role: string;
   specialization?: string;
-  experience: string;
   education: string;
   bio: string;
   image: string;
@@ -18,7 +17,6 @@ export const teamMembers: TeamMember[] = [
     name: "Dr. Mahesh Ramalingam",
     role: "General Practitioner",
     specialization: "General Practice",
-    experience: "18+ years",
     education: "MBBS, FRACGP, MRCGP, DRCOG",
     bio: `Dr Mahesh Ramalingam MBBS FRACGP MRCGP DRCOG — Specialist in General Practice
 
@@ -39,7 +37,6 @@ In the UK he was a trainer for medical students, junior doctors and GP trainees,
     name: "Dr Suganya Velusamy",
     role: "General Practitioner",
     specialization: "General Practice",
-    experience: "12 years",
     education: "MBBS, FRACGP, MRCGP, DRCOG",
     bio: `Dr Suganya Velusamy MBBS FRACGP MRCGP DRCOG
 
