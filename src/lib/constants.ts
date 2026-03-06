@@ -23,7 +23,8 @@ export const PRACTICE_INFO = {
   hours: {
     weekdays: "9:00 AM - 5:00 PM",
     saturday: "Closed",
-    sunday: "Closed"
+    sunday: "Closed",
+    publicHolidays: "Closed"
   },
   // Google Maps coordinates for 1/195 Kerry St, Sanctuary Point NSW 2540
   coordinates: {

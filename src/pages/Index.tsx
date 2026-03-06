@@ -6,7 +6,8 @@ import { Layout } from "@/components/Layout";
 import { SectionHeader } from "@/components/SectionHeader";
 import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
-import lgbtqFlag from "@/assets/lbtqFlag.svg";
+import aboriginalFlag from "@/assets/aboriginal-flag.svg";
+import torresStraitIslanderFlag from "@/assets/torres-strait-islander-flag.svg";
 import straitFlag from "@/assets/straitFlag.svg";
 import medicareLogo from "@/assets/medicare2.png";
 const highlights = [
@@ -197,8 +198,15 @@ export default function Index() {
             <div className="flex items-center justify-center gap-6 md:gap-8">
               <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
                 <img
-                  src={lgbtqFlag}
-                  alt="LGBTQ+ Pride Flag"
+                  src={aboriginalFlag}
+                  alt="Aboriginal Flag"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
+                <img
+                  src={torresStraitIslanderFlag}
+                  alt="Torres Strait Islander Flag"
                   className="h-full w-full object-cover"
                 />
               </div>

@@ -113,6 +113,7 @@ export function Footer() {
                   <p>Mon - Fri: {PRACTICE_INFO.hours.weekdays}</p>
                   <p>Saturday: {PRACTICE_INFO.hours.saturday}</p>
                   <p>Sunday: {PRACTICE_INFO.hours.sunday}</p>
+                  <p>Public Holidays: {PRACTICE_INFO.hours.publicHolidays}</p>
                 </div>
               </li>
             </ul>
