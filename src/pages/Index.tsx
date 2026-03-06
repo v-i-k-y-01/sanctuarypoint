@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/SectionHeader";
 import { HOTDOC_URL, NEW_PATIENT_URL, PRACTICE_INFO, CURE_URL } from "@/lib/constants";
 import heroImage from "@/assets/hero-clinic.jpg";
 import aboriginalFlag from "@/assets/aboriginal-flag.svg";
-import torresStraitIslanderFlag from "@/assets/torres-strait-islander-flag.svg";
+import lgbtqFlag from "@/assets/lbtqFlag.svg";
 import straitFlag from "@/assets/straitFlag.svg";
 import medicareLogo from "@/assets/medicare2.png";
 const highlights = [
@@ -205,8 +205,8 @@ export default function Index() {
               </div>
               <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
                 <img
-                  src={torresStraitIslanderFlag}
-                  alt="Torres Strait Islander Flag"
+                  src={lgbtqFlag}
+                  alt="LGBTQ+ Pride Flag"
                   className="h-full w-full object-cover"
                 />
               </div>
