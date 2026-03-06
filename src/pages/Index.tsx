@@ -205,15 +205,15 @@ export default function Index() {
               </div>
               <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
                 <img
-                  src={lgbtqFlag}
-                  alt="LGBTQ+ Pride Flag"
+                  src={straitFlag}
+                  alt="Strait Islander Flag"
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className="h-16 w-24 overflow-hidden rounded shadow-sm md:h-20 md:w-32">
                 <img
-                  src={straitFlag}
-                  alt="Strait Islander Flag"
+                  src={lgbtqFlag}
+                  alt="LGBTQ+ Pride Flag"
                   className="h-full w-full object-cover"
                 />
               </div>
