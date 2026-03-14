@@ -12,7 +12,7 @@ export const PRACTICE_INFO = {
   name: "Sanctuary Point General Practice",
   shortName: "Sanctuary Point GP",
   address: {
-    street: "1/195 Kerry St",
+    street: "1/193 Kerry St",
     suburb: "Sanctuary Point",
     state: "NSW",
     postcode: "2540",
@@ -26,10 +26,10 @@ export const PRACTICE_INFO = {
     sunday: "Closed",
     publicHolidays: "Closed"
   },
-  // Google Maps coordinates for 1/195 Kerry St, Sanctuary Point NSW 2540
+  // Google Maps coordinates for 1/193 Kerry St, Sanctuary Point NSW 2540
   coordinates: {
-    lat: -35.1048,
-    lng: 150.6305
+    lat: -35.1047,
+    lng: 150.6306
   }
 };
 

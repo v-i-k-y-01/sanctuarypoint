@@ -96,7 +96,7 @@ export default function Contact() {
             <Card className="overflow-hidden">
               <div className="aspect-video w-full">
                 <iframe
-                  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13086.799477844657!2d${PRACTICE_INFO.coordinates.lng}!3d${PRACTICE_INFO.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b149c0b2ad9d7e7%3A0x500eef17f210560!2sSanctuary%20Point%20NSW%202540!5e0!3m2!1sen!2sau!4v1697000000000!5m2!1sen!2sau`}
+                  src="https://www.google.com/maps?q=1/193+Kerry+St,+Sanctuary+Point+NSW+2540&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
