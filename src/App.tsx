@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { HolidayClosureDialog } from "@/components/HolidayClosureDialog";
 import Index from "./pages/Index";
 import Team from "./pages/Team";
 import TeamMember from "./pages/TeamMember";
@@ -20,6 +21,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <HolidayClosureDialog />
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
