@@ -1,5 +1,6 @@
 import doctor1 from "@/assets/doctor1.jpg";
 import doctor2 from "@/assets/doctor2.jpg";
+import doctor3 from "@/assets/doctor3.jpg";
 
 export interface TeamMember {
   id: string;
@@ -46,6 +47,29 @@ Suganya has a holistic approach in providing patient centred care in all aspects
 
 She enjoys walking, meditation, travelling and spending time with her family and friends in her free time.`,
     image: doctor2
+  },
+  {
+    id: "dr-revolution-shrestha",
+    name: "Dr Revolution Shrestha",
+    role: "General Practitioner",
+    specialization: "General Practice",
+    education: "Doctor of Medicine (MD), Membership of the Royal College of Physicians – International, Diploma in Infectious Diseases, American Board certification in Aesthetic Medicine",
+    bio: `Dr Revolution Shrestha is a General Practitioner with clinical experience across Nepal, the Philippines, the UAE and Australia since 2018.
+
+Dr Shrestha believes that effective healthcare begins with understanding *what is happening, why it is happening, and how best to address it*. He takes a holistic, patient-centred approach, recognising that health is influenced by much more than physical symptoms alone.
+
+He believes good medicine goes beyond prescribing medications. It involves understanding each patient's circumstances, empowering them with knowledge, and considering lifestyle changes, psychological wellbeing, social circumstances and community support, alongside medication when appropriate.
+
+His clinical interests include acute and chronic disease management, pain management, mental health, maternal health, children's and adolescent health, preventive healthcare, screening and immunisation. He also welcomes patients with a broad range of health concerns and enjoys the variety that general practice brings, caring for individuals and families at every stage of life.
+
+For five years in the UAE, Dr Shrestha also served as a Basic Life Support (BLS) trainer and health educator, delivering free lifesaving training and health education to schools, workplaces, churches and local communities.
+
+He values open communication, shared decision-making and building trusting, long-term relationships with his patients. His aim is to help every patient feel heard, understand their health, and work together towards the best possible outcomes.
+
+*His approach is simple: understand the person, understand the problem, and find the right way forward together.*
+
+Languages spoken: English, Nepali, Hindi, Filipino (Tagalog).`,
+    image: doctor3
   }
 ];
 

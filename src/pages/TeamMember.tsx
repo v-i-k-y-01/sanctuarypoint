@@ -71,7 +71,11 @@ export default function TeamMember() {
               {/* Bio */}
               <div className="mb-8">
                 <h2 className="mb-4 text-xl font-semibold">About</h2>
-                <p className="text-muted-foreground leading-relaxed">{member.bio}</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  {member.bio.split("*").map((text, index) =>
+                    index % 2 === 1 ? <em key={index}>{text}</em> : <span key={index}>{text}</span>
+                  )}
+                </p>
               </div>
 
               {/* Book Appointment CTA */}
